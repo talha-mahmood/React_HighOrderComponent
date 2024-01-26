@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react'
 function App() {
   return (
     <div className="App">
-      <h1>HOC </h1>//higher order component
+      <h1>HOC </h1> // React higher order component
       <HOCRed cmp={Counter} />
       <HOCGreen cmp={Counter} />
       <HOCBlue cmp={Counter} />
