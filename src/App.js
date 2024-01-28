@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <h1>HOC </h1> // React higher order component
-      <HOCRed cmp={Counter} />
+      <HOCRed cmp={Counter} />// passed counter function as props to HOC
       <HOCGreen cmp={Counter} />
       <HOCBlue cmp={Counter} />
 
