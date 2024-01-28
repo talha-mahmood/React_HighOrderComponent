@@ -11,7 +11,7 @@ function App() {
     </div>
   );
 }
-//different higher order components
+
 function HOCRed(props)
 {
   return <h2 style={{backgroundColor:'red',width:100}}>Red<props.cmp /></h2>
